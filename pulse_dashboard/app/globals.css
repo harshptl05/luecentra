@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+a {
+  color: #7cb8ff;
+}
+a:hover {
+  text-decoration: underline;
+}
+input, button {
+  font: inherit;
+}
