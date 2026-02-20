@@ -217,7 +217,7 @@ const SidebarComponent = ({ isCollapsed, onToggle, onSearchClick }: SidebarProps
     const bottomItems = useMemo(
         () => [
             {
-                href: 'https://discord.gg/UCZH5B5Hpd',
+                href: 'https://discord.gg/34CdSnXe',
                 icon: '/linkout.svg',
                 text: 'Join Discord',
                 ariaLabel: 'Help Center (new window)',
