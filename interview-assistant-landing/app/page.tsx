@@ -21,33 +21,33 @@ const navLinks = [
 const features = [
   {
     icon: '🎯',
-    title: 'Structured practice',
-    description: 'Run mock interviews with common question sets and get feedback tailored to your role.',
+    title: 'Personalization',
+    description: 'Set context in your personalization window to get the best accurate answers for your interview.',
   },
   {
     icon: '🤖',
     title: 'AI-powered feedback',
-    description: 'Get instant, constructive feedback on answers so you improve faster.',
+    description: 'Get instant, constructive insights on answers so you can know what to say.',
   },
   {
     icon: '📋',
     title: 'Question banks',
-    description: 'Access curated behavioral and technical questions used by top companies.',
+    description: 'Prepare for curated behavioral and technical questions used by top companies.',
   },
   {
     icon: '⏱️',
-    title: 'Time-boxed sessions',
-    description: 'Practice under realistic time pressure with optional timers.',
+    title: 'Coding assesments',
+    description: 'Get through live coding assessments under realistic time pressure.',
   },
   {
     icon: '📊',
-    title: 'Progress tracking',
-    description: 'See your improvement over time with simple metrics and history.',
+    title: 'Live Transcription',
+    description: 'Transcribes your interview in real time and answers any questions you may receive.',
   },
   {
     icon: '🔒',
     title: 'Private & ethical',
-    description: 'Your data stays yours. Built for honest career preparation only.',
+    description: 'Your data stays yours. Built for getting past interviews and live coding assessments.',
   },
 ];
 
@@ -183,14 +183,15 @@ export default function Home() {
               Two plans. Join Discord to purchase.
             </p>
             <div className="grid gap-8 md:grid-cols-2">
-              {/* Basic */}
-              <Card className="relative">
+              {/* Basic — Interview Assistant (coming soon) */}
+              <Card className="relative opacity-90">
                 <CardHeader>
                   <CardTitle>Basic</CardTitle>
-                  <CardDescription>For getting started and regular practice.</CardDescription>
+                  <CardDescription>Interview Assistant itself — for getting started and regular practice.</CardDescription>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold">$29</span>
-                    <span className="text-muted">/month</span>
+                    <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-muted text-muted-foreground">
+                      Coming soon
+                    </span>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm text-muted">
@@ -202,10 +203,8 @@ export default function Home() {
                   <p>• Regular updates</p>
                 </CardContent>
                 <CardFooter>
-                  <Button asChild className="w-full" size="lg">
-                    <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer">
-                      Join our Discord to Purchase
-                    </a>
+                  <Button disabled className="w-full" size="lg" variant="secondary">
+                    Coming soon
                   </Button>
                 </CardFooter>
               </Card>
