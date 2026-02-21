@@ -184,7 +184,7 @@ export default function Home() {
             </p>
             <div className="grid gap-8 md:grid-cols-2">
               {/* Basic — Interview Assistant (coming soon) */}
-              <Card className="relative opacity-90">
+              <Card className="relative opacity-90" data-plan="basic-coming-soon">
                 <CardHeader>
                   <CardTitle>Basic</CardTitle>
                   <CardDescription>Interview Assistant itself — for getting started and regular practice.</CardDescription>
